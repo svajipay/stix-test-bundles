@@ -4,14 +4,14 @@
     "objects": [
         {
             "type": "identity",
-            "id": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "id": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "name": "verify_event",
             "identity_class": "events"
         },
         {
             "id": "observed-data--c48d9814-7ed8-4347-8f1e-3b67fd6136c1",
             "type": "observed-data",
-            "created_by_ref": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "created_by_ref": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "created": "2022-01-10T09:51:53.333Z",
             "modified": "2022-01-10T09:51:53.333Z",
             "objects": {
@@ -52,7 +52,7 @@
         {
             "id": "observed-data--94060d7b-94cf-4093-932a-30f550b926be",
             "type": "observed-data",
-            "created_by_ref": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "created_by_ref": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "created": "2022-01-10T09:51:53.333Z",
             "modified": "2022-01-10T09:51:53.333Z",
             "objects": {
@@ -93,7 +93,7 @@
         {
             "id": "observed-data--377160d9-28d5-45ff-9c33-a6b664e2e21b",
             "type": "observed-data",
-            "created_by_ref": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "created_by_ref": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "created": "2022-01-10T09:51:53.333Z",
             "modified": "2022-01-10T09:51:53.333Z",
             "objects": {
@@ -134,7 +134,7 @@
         {
             "id": "observed-data--cdc017e2-cc21-4b93-a296-76d2f3a15d45",
             "type": "observed-data",
-            "created_by_ref": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "created_by_ref": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "created": "2022-01-10T09:51:53.333Z",
             "modified": "2022-01-10T09:51:53.333Z",
             "objects": {
@@ -167,7 +167,7 @@
         {
             "id": "observed-data--4a80fbd0-79c4-4870-af92-c98361e42e67",
             "type": "observed-data",
-            "created_by_ref": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "created_by_ref": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "created": "2022-01-10T09:51:53.333Z",
             "modified": "2022-01-10T09:51:53.333Z",
             "objects": {
@@ -208,7 +208,7 @@
         {
             "id": "observed-data--03c4cfa8-3812-4780-b036-a6dc29314fb7",
             "type": "observed-data",
-            "created_by_ref": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "created_by_ref": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "created": "2022-01-10T09:51:53.334Z",
             "modified": "2022-01-10T09:51:53.334Z",
             "objects": {
@@ -249,7 +249,7 @@
         {
             "id": "observed-data--f8c90044-9cfa-44fc-8efd-2a5173b6fa0a",
             "type": "observed-data",
-            "created_by_ref": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "created_by_ref": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "created": "2022-01-10T09:51:53.334Z",
             "modified": "2022-01-10T09:51:53.334Z",
             "objects": {
@@ -290,7 +290,7 @@
         {
             "id": "observed-data--3025725f-627c-4311-8ccd-5bb5963f4de4",
             "type": "observed-data",
-            "created_by_ref": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "created_by_ref": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "created": "2022-01-10T09:51:53.334Z",
             "modified": "2022-01-10T09:51:53.334Z",
             "objects": {
@@ -331,7 +331,7 @@
         {
             "id": "observed-data--9be61c67-1efd-45b3-85e3-0cc4c51ff4ba",
             "type": "observed-data",
-            "created_by_ref": "32a23267-52fb-4e82-859b-0a15d6a2d334",
+            "created_by_ref": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "created": "2022-01-10T09:51:53.334Z",
             "modified": "2022-01-10T09:51:53.334Z",
             "objects": {
