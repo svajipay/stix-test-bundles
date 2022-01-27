@@ -7,6 +7,8 @@
             "id": "identity--32a23267-52fb-4e82-859b-0a15d6a2d334",
             "name": "verify_event",
             "identity_class": "events"
+            "created": "2022-01-10T09:51:53.333Z",
+            "modified": "2022-01-10T09:51:53.333Z"
         },
         {
             "id": "observed-data--c48d9814-7ed8-4347-8f1e-3b67fd6136c1",
@@ -38,7 +40,8 @@
                 },
                 "2": {
                     "type": "user-account",
-                    "user_name": "johndoe@ibm.com"
+                    "user_name": "johndoe@ibm.com",
+                    "user_id": "johndoe"
                 },
                 "3": {
                     "type": "domain-name",
@@ -79,7 +82,8 @@
                 },
                 "2": {
                     "type": "user-account",
-                    "user_name": "balaji@caneandbox.com"
+                    "user_name": "balaji@caneandbox.com",
+		    "user_id": "balaji"
                 },
                 "3": {
                     "type": "domain-name",
@@ -120,6 +124,7 @@
                 },
                 "2": {
                     "type": "user-account",
+                    "user_id": "balaji",
                     "user_name": "balaji@caneandbox.com"
                 },
                 "3": {
@@ -194,6 +199,7 @@
                 },
                 "2": {
                     "type": "user-account",
+                    "user_id": "johndoe",
                     "user_name": "johndoe@ibm.com"
                 },
                 "3": {
