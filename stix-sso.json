@@ -241,6 +241,7 @@
                 },
                 "2": {
                     "type": "user-account",
+		    "user_id": "johndoe",
                     "user_name": "johndoe2@ibm.com"
                 },
                 "3": {
@@ -282,6 +283,7 @@
                 },
                 "2": {
                     "type": "user-account",
+		    "user_id": "johndoe",
                     "user_name": "johndoe@caneandbox.com"
                 },
                 "3": {
@@ -323,6 +325,7 @@
                 },
                 "2": {
                     "type": "user-account",
+		    "user_id": "johndoe",
                     "user_name": "johndoe2@ibm.com"
                 },
                 "3": {
@@ -364,6 +367,7 @@
                 },
                 "2": {
                     "type": "user-account",
+		    "user_id": "johndoe",
                     "user_name": "johndoe2@ibm.com"
                 },
                 "3": {
