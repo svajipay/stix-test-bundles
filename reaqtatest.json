@@ -1,0 +1,1201 @@
+{
+    "type": "bundle",
+    "id": "bundle--997e5690-038c-445f-9931-e2a172753a5f",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "name": "reaqta",
+            "identity_class": "events",
+            "created": "2022-10-27T21:05:19.011Z",
+            "modified": "2022-10-27T21:05:19.011Z"
+        },
+        {
+            "id": "observed-data--434110d9-4c14-49a3-992a-bb3bf82ae665",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-10-27T21:07:21.685Z",
+            "modified": "2022-10-27T21:07:21.685Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "code": 915767399179882497,
+                    "file_ref": "6",
+                    "user_ref": "8",
+                    "process_ref": "3",
+                    "parent_process_ref": "4",
+                    "network_ref": "10",
+                    "category": "8",
+                    "action": "Network Connection Established",
+                    "created": "2022-10-05T02:12:42.100Z"
+                },
+                "1": {
+                    "type": "x-oca-asset",
+                    "host_id": "915345969158029312",
+                    "ip_refs": [
+                        "11"
+                    ]
+                },
+                "2": {
+                    "type": "x-reaqta-event",
+                    "local_id": "915767351863937025"
+                },
+                "3": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3252:1664934442971",
+                    "binary_ref": "6",
+                    "creator_user_ref": "8",
+                    "pid": 3252,
+                    "created": "2022-10-05T01:47:22.971Z",
+                    "parent_ref": "4",
+                    "extensions": {
+                        "windows-process-ext": {
+                            "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                        },
+                        "x-reaqta-process": {
+                            "privilege_level": "MEDIUM",
+                            "no_gui": false,
+                            "logon_id": "0x65fe7"
+                        }
+                    }
+                },
+                "4": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3172:1664934442840",
+                    "pid": 3172
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\windows"
+                },
+                "6": {
+                    "type": "file",
+                    "parent_directory_ref": "5",
+                    "name": "explorer.exe",
+                    "hashes": {
+                        "MD5": "917fa7195bb7d3307bdf21acca5fa049",
+                        "SHA-1": "e2a2c0eb9d1a433ec592c97a2219ec6984de82da",
+                        "SHA-256": "dd98e1fb857b5ddd864772dcf56ecb4112e45f4ad317971754d662e34d0b1b21"
+                    },
+                    "size": 4675384,
+                    "extensions": {
+                        "x-reaqta-program": {
+                            "arch": "x64",
+                            "fsname": "explorer.exe"
+                        }
+                    }
+                },
+                "7": {
+                    "type": "x509-certificate",
+                    "extensions": {
+                        "x-reaqta-cert": {
+                            "signer": "Microsoft Windows",
+                            "trusted": true,
+                            "expired": false
+                        }
+                    },
+                    "issuer": "Microsoft Windows Production PCA 2011"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "DESKTOPM1\\Admin"
+                },
+                "9": {
+                    "type": "x-ibm-finding",
+                    "extensions": {
+                        "x-reaqta-alert": {
+                            "incidents": [],
+                            "triggered_incidents": []
+                        }
+                    },
+                    "src_ip_ref": "11",
+                    "dst_ip_ref": "12"
+                },
+                "10": {
+                    "type": "network-traffic",
+                    "extensions": {
+                        "x-reaqta-network": {
+                            "address_family": "IPv4",
+                            "outbound": true
+                        }
+                    },
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_port": 49998,
+                    "dst_port": 443,
+                    "src_ref": "11",
+                    "dst_ref": "12"
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.129"
+                },
+                "12": {
+                    "type": "ipv4-addr",
+                    "value": "13.64.180.106"
+                }
+            },
+            "first_observed": "2022-10-05T02:12:30.819Z",
+            "last_observed": "2022-10-05T02:12:30.819Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--2539f3bc-a1f4-4e4a-8ede-9bf2c67ae98a",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-10-27T21:07:21.686Z",
+            "modified": "2022-10-27T21:07:21.686Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "code": 915616727050485761,
+                    "file_ref": "6",
+                    "user_ref": "8",
+                    "process_ref": "3",
+                    "parent_process_ref": "4",
+                    "network_ref": "10",
+                    "category": "8",
+                    "action": "Network Connection Established",
+                    "created": "2022-10-04T16:13:59.065Z"
+                },
+                "1": {
+                    "type": "x-oca-asset",
+                    "host_id": "915345969158029312",
+                    "ip_refs": [
+                        "11"
+                    ]
+                },
+                "2": {
+                    "type": "x-reaqta-event",
+                    "local_id": "915616672205768705"
+                },
+                "3": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:5860:1664899958280",
+                    "binary_ref": "6",
+                    "creator_user_ref": "8",
+                    "pid": 5860,
+                    "created": "2022-10-04T16:12:38.280Z",
+                    "parent_ref": "4",
+                    "extensions": {
+                        "windows-process-ext": {
+                            "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                        },
+                        "x-reaqta-process": {
+                            "privilege_level": "MEDIUM",
+                            "no_gui": false,
+                            "logon_id": "0x50410"
+                        }
+                    }
+                },
+                "4": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3892:1664835548604",
+                    "pid": 3892
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\program files\\microsoft office\\root\\office16"
+                },
+                "6": {
+                    "type": "file",
+                    "parent_directory_ref": "5",
+                    "name": "winword.exe",
+                    "hashes": {
+                        "MD5": "c28e0e976b1a2a4308e6056e27ef22cd",
+                        "SHA-1": "d09b240ad6790a5f2f0aca5bf7af7d5271891b2c",
+                        "SHA-256": "2f370c096c7bf317099c4fed252a3bb87630d1b9537168f86ae6d225d87c25e9"
+                    },
+                    "size": 1636696,
+                    "extensions": {
+                        "x-reaqta-program": {
+                            "arch": "x64",
+                            "fsname": "winword.exe"
+                        }
+                    }
+                },
+                "7": {
+                    "type": "x509-certificate",
+                    "extensions": {
+                        "x-reaqta-cert": {
+                            "signer": "Microsoft Corporation",
+                            "trusted": true,
+                            "expired": false
+                        }
+                    },
+                    "issuer": "Microsoft Code Signing PCA 2011"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "DESKTOPM1\\Admin"
+                },
+                "9": {
+                    "type": "x-ibm-finding",
+                    "extensions": {
+                        "x-reaqta-alert": {
+                            "incidents": [
+                                "915616473890691074"
+                            ],
+                            "triggered_incidents": []
+                        }
+                    },
+                    "src_ip_ref": "11",
+                    "dst_ip_ref": "12"
+                },
+                "10": {
+                    "type": "network-traffic",
+                    "extensions": {
+                        "x-reaqta-network": {
+                            "address_family": "IPv4",
+                            "outbound": true
+                        }
+                    },
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_port": 52096,
+                    "dst_port": 443,
+                    "src_ref": "11",
+                    "dst_ref": "12"
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.129"
+                },
+                "12": {
+                    "type": "ipv4-addr",
+                    "value": "52.109.8.45"
+                }
+            },
+            "first_observed": "2022-10-04T16:13:45.989Z",
+            "last_observed": "2022-10-04T16:13:45.989Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--24824cef-d027-4f4d-976e-ab744390ee58",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-10-27T21:07:21.686Z",
+            "modified": "2022-10-27T21:07:21.686Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "code": 915616682280488961,
+                    "file_ref": "6",
+                    "user_ref": "8",
+                    "process_ref": "3",
+                    "parent_process_ref": "4",
+                    "network_ref": "10",
+                    "category": "8",
+                    "action": "Network Connection Established",
+                    "created": "2022-10-04T16:13:48.391Z"
+                },
+                "1": {
+                    "type": "x-oca-asset",
+                    "host_id": "915345969158029312",
+                    "ip_refs": [
+                        "11"
+                    ]
+                },
+                "2": {
+                    "type": "x-reaqta-event",
+                    "local_id": "915616554505213953"
+                },
+                "3": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:5860:1664899958280",
+                    "binary_ref": "6",
+                    "creator_user_ref": "8",
+                    "pid": 5860,
+                    "created": "2022-10-04T16:12:38.280Z",
+                    "parent_ref": "4",
+                    "extensions": {
+                        "windows-process-ext": {
+                            "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                        },
+                        "x-reaqta-process": {
+                            "privilege_level": "MEDIUM",
+                            "no_gui": false,
+                            "logon_id": "0x50410"
+                        }
+                    }
+                },
+                "4": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3892:1664835548604",
+                    "pid": 3892
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\program files\\microsoft office\\root\\office16"
+                },
+                "6": {
+                    "type": "file",
+                    "parent_directory_ref": "5",
+                    "name": "winword.exe",
+                    "hashes": {
+                        "MD5": "c28e0e976b1a2a4308e6056e27ef22cd",
+                        "SHA-1": "d09b240ad6790a5f2f0aca5bf7af7d5271891b2c",
+                        "SHA-256": "2f370c096c7bf317099c4fed252a3bb87630d1b9537168f86ae6d225d87c25e9"
+                    },
+                    "size": 1636696,
+                    "extensions": {
+                        "x-reaqta-program": {
+                            "arch": "x64",
+                            "fsname": "winword.exe"
+                        }
+                    }
+                },
+                "7": {
+                    "type": "x509-certificate",
+                    "extensions": {
+                        "x-reaqta-cert": {
+                            "signer": "Microsoft Corporation",
+                            "trusted": true,
+                            "expired": false
+                        }
+                    },
+                    "issuer": "Microsoft Code Signing PCA 2011"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "DESKTOPM1\\Admin"
+                },
+                "9": {
+                    "type": "x-ibm-finding",
+                    "extensions": {
+                        "x-reaqta-alert": {
+                            "incidents": [
+                                "915616473890691074"
+                            ],
+                            "triggered_incidents": []
+                        }
+                    },
+                    "src_ip_ref": "11",
+                    "dst_ip_ref": "12"
+                },
+                "10": {
+                    "type": "network-traffic",
+                    "extensions": {
+                        "x-reaqta-network": {
+                            "address_family": "IPv4",
+                            "outbound": true
+                        }
+                    },
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_port": 52093,
+                    "dst_port": 443,
+                    "src_ref": "11",
+                    "dst_ref": "12"
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.129"
+                },
+                "12": {
+                    "type": "ipv4-addr",
+                    "value": "23.206.160.41"
+                }
+            },
+            "first_observed": "2022-10-04T16:13:17.927Z",
+            "last_observed": "2022-10-04T16:13:17.927Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--78cc7664-3e9d-40da-b65c-5c22a30e3d02",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-10-27T21:07:21.687Z",
+            "modified": "2022-10-27T21:07:21.687Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "code": 915616682280484865,
+                    "file_ref": "6",
+                    "user_ref": "8",
+                    "process_ref": "3",
+                    "parent_process_ref": "4",
+                    "network_ref": "10",
+                    "category": "8",
+                    "action": "Network Connection Established",
+                    "created": "2022-10-04T16:13:48.391Z"
+                },
+                "1": {
+                    "type": "x-oca-asset",
+                    "host_id": "915345969158029312",
+                    "ip_refs": [
+                        "11"
+                    ]
+                },
+                "2": {
+                    "type": "x-reaqta-event",
+                    "local_id": "915616554505209857"
+                },
+                "3": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:5860:1664899958280",
+                    "binary_ref": "6",
+                    "creator_user_ref": "8",
+                    "pid": 5860,
+                    "created": "2022-10-04T16:12:38.280Z",
+                    "parent_ref": "4",
+                    "extensions": {
+                        "windows-process-ext": {
+                            "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                        },
+                        "x-reaqta-process": {
+                            "privilege_level": "MEDIUM",
+                            "no_gui": false,
+                            "logon_id": "0x50410"
+                        }
+                    }
+                },
+                "4": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3892:1664835548604",
+                    "pid": 3892
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\program files\\microsoft office\\root\\office16"
+                },
+                "6": {
+                    "type": "file",
+                    "parent_directory_ref": "5",
+                    "name": "winword.exe",
+                    "hashes": {
+                        "MD5": "c28e0e976b1a2a4308e6056e27ef22cd",
+                        "SHA-1": "d09b240ad6790a5f2f0aca5bf7af7d5271891b2c",
+                        "SHA-256": "2f370c096c7bf317099c4fed252a3bb87630d1b9537168f86ae6d225d87c25e9"
+                    },
+                    "size": 1636696,
+                    "extensions": {
+                        "x-reaqta-program": {
+                            "arch": "x64",
+                            "fsname": "winword.exe"
+                        }
+                    }
+                },
+                "7": {
+                    "type": "x509-certificate",
+                    "extensions": {
+                        "x-reaqta-cert": {
+                            "signer": "Microsoft Corporation",
+                            "trusted": true,
+                            "expired": false
+                        }
+                    },
+                    "issuer": "Microsoft Code Signing PCA 2011"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "DESKTOPM1\\Admin"
+                },
+                "9": {
+                    "type": "x-ibm-finding",
+                    "extensions": {
+                        "x-reaqta-alert": {
+                            "incidents": [
+                                "915616473890691074"
+                            ],
+                            "triggered_incidents": []
+                        }
+                    },
+                    "src_ip_ref": "11",
+                    "dst_ip_ref": "12"
+                },
+                "10": {
+                    "type": "network-traffic",
+                    "extensions": {
+                        "x-reaqta-network": {
+                            "address_family": "IPv4",
+                            "outbound": true
+                        }
+                    },
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_port": 52094,
+                    "dst_port": 443,
+                    "src_ref": "11",
+                    "dst_ref": "12"
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.129"
+                },
+                "12": {
+                    "type": "ipv4-addr",
+                    "value": "23.206.160.41"
+                }
+            },
+            "first_observed": "2022-10-04T16:13:17.927Z",
+            "last_observed": "2022-10-04T16:13:17.927Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--31578357-41d0-4b06-aaa8-e2e83649cb8f",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-10-27T21:07:21.687Z",
+            "modified": "2022-10-27T21:07:21.687Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "code": 915616682238550017,
+                    "file_ref": "6",
+                    "user_ref": "8",
+                    "process_ref": "3",
+                    "parent_process_ref": "4",
+                    "network_ref": "10",
+                    "category": "8",
+                    "action": "Network Connection Established",
+                    "created": "2022-10-04T16:13:48.381Z"
+                },
+                "1": {
+                    "type": "x-oca-asset",
+                    "host_id": "915345969158029312",
+                    "ip_refs": [
+                        "11"
+                    ]
+                },
+                "2": {
+                    "type": "x-reaqta-event",
+                    "local_id": "915616554043836417"
+                },
+                "3": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:5860:1664899958280",
+                    "binary_ref": "6",
+                    "creator_user_ref": "8",
+                    "pid": 5860,
+                    "created": "2022-10-04T16:12:38.280Z",
+                    "parent_ref": "4",
+                    "extensions": {
+                        "windows-process-ext": {
+                            "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                        },
+                        "x-reaqta-process": {
+                            "privilege_level": "MEDIUM",
+                            "no_gui": false,
+                            "logon_id": "0x50410"
+                        }
+                    }
+                },
+                "4": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3892:1664835548604",
+                    "pid": 3892
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\program files\\microsoft office\\root\\office16"
+                },
+                "6": {
+                    "type": "file",
+                    "parent_directory_ref": "5",
+                    "name": "winword.exe",
+                    "hashes": {
+                        "MD5": "c28e0e976b1a2a4308e6056e27ef22cd",
+                        "SHA-1": "d09b240ad6790a5f2f0aca5bf7af7d5271891b2c",
+                        "SHA-256": "2f370c096c7bf317099c4fed252a3bb87630d1b9537168f86ae6d225d87c25e9"
+                    },
+                    "size": 1636696,
+                    "extensions": {
+                        "x-reaqta-program": {
+                            "arch": "x64",
+                            "fsname": "winword.exe"
+                        }
+                    }
+                },
+                "7": {
+                    "type": "x509-certificate",
+                    "extensions": {
+                        "x-reaqta-cert": {
+                            "signer": "Microsoft Corporation",
+                            "trusted": true,
+                            "expired": false
+                        }
+                    },
+                    "issuer": "Microsoft Code Signing PCA 2011"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "DESKTOPM1\\Admin"
+                },
+                "9": {
+                    "type": "x-ibm-finding",
+                    "extensions": {
+                        "x-reaqta-alert": {
+                            "incidents": [
+                                "915616473890691074"
+                            ],
+                            "triggered_incidents": []
+                        }
+                    },
+                    "src_ip_ref": "11",
+                    "dst_ip_ref": "12"
+                },
+                "10": {
+                    "type": "network-traffic",
+                    "extensions": {
+                        "x-reaqta-network": {
+                            "address_family": "IPv4",
+                            "outbound": true
+                        }
+                    },
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_port": 52092,
+                    "dst_port": 443,
+                    "src_ref": "11",
+                    "dst_ref": "12"
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.129"
+                },
+                "12": {
+                    "type": "ipv4-addr",
+                    "value": "23.206.160.41"
+                }
+            },
+            "first_observed": "2022-10-04T16:13:17.817Z",
+            "last_observed": "2022-10-04T16:13:17.817Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--c53ee58c-b81e-4537-a477-3802ed7b476b",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-10-27T21:07:21.688Z",
+            "modified": "2022-10-27T21:07:21.688Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "code": 915616509080899585,
+                    "file_ref": "6",
+                    "user_ref": "8",
+                    "process_ref": "3",
+                    "parent_process_ref": "4",
+                    "network_ref": "10",
+                    "category": "8",
+                    "action": "Network Connection Established",
+                    "created": "2022-10-04T16:13:07.097Z"
+                },
+                "1": {
+                    "type": "x-oca-asset",
+                    "host_id": "915345969158029312",
+                    "ip_refs": [
+                        "11"
+                    ]
+                },
+                "2": {
+                    "type": "x-reaqta-event",
+                    "local_id": "915616478240229377"
+                },
+                "3": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:5860:1664899958280",
+                    "binary_ref": "6",
+                    "creator_user_ref": "8",
+                    "pid": 5860,
+                    "created": "2022-10-04T16:12:38.280Z",
+                    "parent_ref": "4",
+                    "extensions": {
+                        "windows-process-ext": {
+                            "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                        },
+                        "x-reaqta-process": {
+                            "privilege_level": "MEDIUM",
+                            "no_gui": false,
+                            "logon_id": "0x50410"
+                        }
+                    }
+                },
+                "4": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3892:1664835548604",
+                    "pid": 3892
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\program files\\microsoft office\\root\\office16"
+                },
+                "6": {
+                    "type": "file",
+                    "parent_directory_ref": "5",
+                    "name": "winword.exe",
+                    "hashes": {
+                        "MD5": "c28e0e976b1a2a4308e6056e27ef22cd",
+                        "SHA-1": "d09b240ad6790a5f2f0aca5bf7af7d5271891b2c",
+                        "SHA-256": "2f370c096c7bf317099c4fed252a3bb87630d1b9537168f86ae6d225d87c25e9"
+                    },
+                    "size": 1636696,
+                    "extensions": {
+                        "x-reaqta-program": {
+                            "arch": "x64",
+                            "fsname": "winword.exe"
+                        }
+                    }
+                },
+                "7": {
+                    "type": "x509-certificate",
+                    "extensions": {
+                        "x-reaqta-cert": {
+                            "signer": "Microsoft Corporation",
+                            "trusted": true,
+                            "expired": false
+                        }
+                    },
+                    "issuer": "Microsoft Code Signing PCA 2011"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "DESKTOPM1\\Admin"
+                },
+                "9": {
+                    "type": "x-ibm-finding",
+                    "extensions": {
+                        "x-reaqta-alert": {
+                            "incidents": [
+                                "915616473890691074"
+                            ],
+                            "triggered_incidents": []
+                        }
+                    },
+                    "src_ip_ref": "11",
+                    "dst_ip_ref": "12"
+                },
+                "10": {
+                    "type": "network-traffic",
+                    "extensions": {
+                        "x-reaqta-network": {
+                            "address_family": "IPv4",
+                            "outbound": true
+                        }
+                    },
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_port": 52090,
+                    "dst_port": 443,
+                    "src_ref": "11",
+                    "dst_ref": "12"
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.129"
+                },
+                "12": {
+                    "type": "ipv4-addr",
+                    "value": "23.47.194.187"
+                }
+            },
+            "first_observed": "2022-10-04T16:12:59.744Z",
+            "last_observed": "2022-10-04T16:12:59.744Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--41a086de-024c-4679-a30b-2465e5faff9c",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-10-27T21:07:21.688Z",
+            "modified": "2022-10-27T21:07:21.688Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "code": 915616509080895489,
+                    "file_ref": "6",
+                    "user_ref": "8",
+                    "process_ref": "3",
+                    "parent_process_ref": "4",
+                    "network_ref": "10",
+                    "category": "8",
+                    "action": "Network Connection Established",
+                    "created": "2022-10-04T16:13:07.097Z"
+                },
+                "1": {
+                    "type": "x-oca-asset",
+                    "host_id": "915345969158029312",
+                    "ip_refs": [
+                        "11"
+                    ]
+                },
+                "2": {
+                    "type": "x-reaqta-event",
+                    "local_id": "915616478240225281"
+                },
+                "3": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:5860:1664899958280",
+                    "binary_ref": "6",
+                    "creator_user_ref": "8",
+                    "pid": 5860,
+                    "created": "2022-10-04T16:12:38.280Z",
+                    "parent_ref": "4",
+                    "extensions": {
+                        "windows-process-ext": {
+                            "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                        },
+                        "x-reaqta-process": {
+                            "privilege_level": "MEDIUM",
+                            "no_gui": false,
+                            "logon_id": "0x50410"
+                        }
+                    }
+                },
+                "4": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3892:1664835548604",
+                    "pid": 3892
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\program files\\microsoft office\\root\\office16"
+                },
+                "6": {
+                    "type": "file",
+                    "parent_directory_ref": "5",
+                    "name": "winword.exe",
+                    "hashes": {
+                        "MD5": "c28e0e976b1a2a4308e6056e27ef22cd",
+                        "SHA-1": "d09b240ad6790a5f2f0aca5bf7af7d5271891b2c",
+                        "SHA-256": "2f370c096c7bf317099c4fed252a3bb87630d1b9537168f86ae6d225d87c25e9"
+                    },
+                    "size": 1636696,
+                    "extensions": {
+                        "x-reaqta-program": {
+                            "arch": "x64",
+                            "fsname": "winword.exe"
+                        }
+                    }
+                },
+                "7": {
+                    "type": "x509-certificate",
+                    "extensions": {
+                        "x-reaqta-cert": {
+                            "signer": "Microsoft Corporation",
+                            "trusted": true,
+                            "expired": false
+                        }
+                    },
+                    "issuer": "Microsoft Code Signing PCA 2011"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "DESKTOPM1\\Admin"
+                },
+                "9": {
+                    "type": "x-ibm-finding",
+                    "extensions": {
+                        "x-reaqta-alert": {
+                            "incidents": [
+                                "915616473890691074"
+                            ],
+                            "triggered_incidents": []
+                        }
+                    },
+                    "src_ip_ref": "11",
+                    "dst_ip_ref": "12"
+                },
+                "10": {
+                    "type": "network-traffic",
+                    "extensions": {
+                        "x-reaqta-network": {
+                            "address_family": "IPv4",
+                            "outbound": true
+                        }
+                    },
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_port": 52089,
+                    "dst_port": 443,
+                    "src_ref": "11",
+                    "dst_ref": "12"
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.129"
+                },
+                "12": {
+                    "type": "ipv4-addr",
+                    "value": "23.47.194.187"
+                }
+            },
+            "first_observed": "2022-10-04T16:12:59.744Z",
+            "last_observed": "2022-10-04T16:12:59.744Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--8b4d864e-7e93-4f34-9857-e7977e9d6dcb",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-10-27T21:07:21.688Z",
+            "modified": "2022-10-27T21:07:21.688Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "code": 915616509076705281,
+                    "file_ref": "6",
+                    "user_ref": "8",
+                    "process_ref": "3",
+                    "parent_process_ref": "4",
+                    "network_ref": "10",
+                    "category": "8",
+                    "action": "Network Connection Established",
+                    "created": "2022-10-04T16:13:07.096Z"
+                },
+                "1": {
+                    "type": "x-oca-asset",
+                    "host_id": "915345969158029312",
+                    "ip_refs": [
+                        "11"
+                    ]
+                },
+                "2": {
+                    "type": "x-reaqta-event",
+                    "local_id": "915616478240221185"
+                },
+                "3": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:5860:1664899958280",
+                    "binary_ref": "6",
+                    "creator_user_ref": "8",
+                    "pid": 5860,
+                    "created": "2022-10-04T16:12:38.280Z",
+                    "parent_ref": "4",
+                    "extensions": {
+                        "windows-process-ext": {
+                            "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                        },
+                        "x-reaqta-process": {
+                            "privilege_level": "MEDIUM",
+                            "no_gui": false,
+                            "logon_id": "0x50410"
+                        }
+                    }
+                },
+                "4": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3892:1664835548604",
+                    "pid": 3892
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\program files\\microsoft office\\root\\office16"
+                },
+                "6": {
+                    "type": "file",
+                    "parent_directory_ref": "5",
+                    "name": "winword.exe",
+                    "hashes": {
+                        "MD5": "c28e0e976b1a2a4308e6056e27ef22cd",
+                        "SHA-1": "d09b240ad6790a5f2f0aca5bf7af7d5271891b2c",
+                        "SHA-256": "2f370c096c7bf317099c4fed252a3bb87630d1b9537168f86ae6d225d87c25e9"
+                    },
+                    "size": 1636696,
+                    "extensions": {
+                        "x-reaqta-program": {
+                            "arch": "x64",
+                            "fsname": "winword.exe"
+                        }
+                    }
+                },
+                "7": {
+                    "type": "x509-certificate",
+                    "extensions": {
+                        "x-reaqta-cert": {
+                            "signer": "Microsoft Corporation",
+                            "trusted": true,
+                            "expired": false
+                        }
+                    },
+                    "issuer": "Microsoft Code Signing PCA 2011"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "DESKTOPM1\\Admin"
+                },
+                "9": {
+                    "type": "x-ibm-finding",
+                    "extensions": {
+                        "x-reaqta-alert": {
+                            "incidents": [
+                                "915616473890691074"
+                            ],
+                            "triggered_incidents": []
+                        }
+                    },
+                    "src_ip_ref": "11",
+                    "dst_ip_ref": "12"
+                },
+                "10": {
+                    "type": "network-traffic",
+                    "extensions": {
+                        "x-reaqta-network": {
+                            "address_family": "IPv4",
+                            "outbound": true
+                        }
+                    },
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_port": 52087,
+                    "dst_port": 443,
+                    "src_ref": "11",
+                    "dst_ref": "12"
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.129"
+                },
+                "12": {
+                    "type": "ipv4-addr",
+                    "value": "23.47.194.187"
+                }
+            },
+            "first_observed": "2022-10-04T16:12:59.744Z",
+            "last_observed": "2022-10-04T16:12:59.744Z",
+            "number_observed": 1
+        },
+        {
+            "id": "observed-data--c91a572e-407b-4fa3-a32d-20f4c0e9278b",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2022-10-27T21:07:21.689Z",
+            "modified": "2022-10-27T21:07:21.689Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "code": 915616509076701185,
+                    "file_ref": "6",
+                    "user_ref": "8",
+                    "process_ref": "3",
+                    "parent_process_ref": "4",
+                    "network_ref": "10",
+                    "category": "8",
+                    "action": "Network Connection Established",
+                    "created": "2022-10-04T16:13:07.096Z"
+                },
+                "1": {
+                    "type": "x-oca-asset",
+                    "host_id": "915345969158029312",
+                    "ip_refs": [
+                        "11"
+                    ]
+                },
+                "2": {
+                    "type": "x-reaqta-event",
+                    "local_id": "915616478240217089"
+                },
+                "3": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:5860:1664899958280",
+                    "binary_ref": "6",
+                    "creator_user_ref": "8",
+                    "pid": 5860,
+                    "created": "2022-10-04T16:12:38.280Z",
+                    "parent_ref": "4",
+                    "extensions": {
+                        "windows-process-ext": {
+                            "owner_sid": "S-1-5-21-979315260-1110968185-3366233752-1001"
+                        },
+                        "x-reaqta-process": {
+                            "privilege_level": "MEDIUM",
+                            "no_gui": false,
+                            "logon_id": "0x50410"
+                        }
+                    }
+                },
+                "4": {
+                    "type": "process",
+                    "x_unique_id": "915345969158029312:3892:1664835548604",
+                    "pid": 3892
+                },
+                "5": {
+                    "type": "directory",
+                    "path": "c:\\program files\\microsoft office\\root\\office16"
+                },
+                "6": {
+                    "type": "file",
+                    "parent_directory_ref": "5",
+                    "name": "winword.exe",
+                    "hashes": {
+                        "MD5": "c28e0e976b1a2a4308e6056e27ef22cd",
+                        "SHA-1": "d09b240ad6790a5f2f0aca5bf7af7d5271891b2c",
+                        "SHA-256": "2f370c096c7bf317099c4fed252a3bb87630d1b9537168f86ae6d225d87c25e9"
+                    },
+                    "size": 1636696,
+                    "extensions": {
+                        "x-reaqta-program": {
+                            "arch": "x64",
+                            "fsname": "winword.exe"
+                        }
+                    }
+                },
+                "7": {
+                    "type": "x509-certificate",
+                    "extensions": {
+                        "x-reaqta-cert": {
+                            "signer": "Microsoft Corporation",
+                            "trusted": true,
+                            "expired": false
+                        }
+                    },
+                    "issuer": "Microsoft Code Signing PCA 2011"
+                },
+                "8": {
+                    "type": "user-account",
+                    "user_id": "DESKTOPM1\\Admin"
+                },
+                "9": {
+                    "type": "x-ibm-finding",
+                    "extensions": {
+                        "x-reaqta-alert": {
+                            "incidents": [
+                                "915616473890691074"
+                            ],
+                            "triggered_incidents": []
+                        }
+                    },
+                    "src_ip_ref": "11",
+                    "dst_ip_ref": "12"
+                },
+                "10": {
+                    "type": "network-traffic",
+                    "extensions": {
+                        "x-reaqta-network": {
+                            "address_family": "IPv4",
+                            "outbound": true
+                        }
+                    },
+                    "protocols": [
+                        "tcp"
+                    ],
+                    "src_port": 52088,
+                    "dst_port": 443,
+                    "src_ref": "11",
+                    "dst_ref": "12"
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "10.0.0.129"
+                },
+                "12": {
+                    "type": "ipv4-addr",
+                    "value": "23.47.194.187"
+                }
+            },
+            "first_observed": "2022-10-04T16:12:59.744Z",
+            "last_observed": "2022-10-04T16:12:59.744Z",
+            "number_observed": 1
+        }
+    ],
+    "spec_version": "2.0"
+}
