@@ -385,7 +385,7 @@ class AIOpsKPI(DataSrc):
 
 
 class KaggleWafer(DataSrc):
-    FILENAME = '/home/pcoccoli/Data/timeseries/KaggleWafer/Train.csv'
+    FILENAME = '/tmp/Data/timeseries/KaggleWafer/Train.csv'
     def __init__(self, feature_name=None):
         super().__init__()
         if not feature_name:
@@ -401,7 +401,7 @@ class KaggleWafer(DataSrc):
 
 class OrigSynthetic(DataSrc):
     """Synthetic data I created"""
-    FILENAME = '/home/pcoccoli/github/kestrel-jupyter/notebooks/synthetic_1.parquet'
+    FILENAME = '/tmp/github/kestrel-jupyter/notebooks/synthetic_1.parquet'
     def __init__(self):
         super().__init__()
         df = pd.read_parquet(self.FILENAME).reset_index()
