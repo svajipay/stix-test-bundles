@@ -423,7 +423,7 @@ class OrigSynthetic(DataSrc):
 
 class Synthetic(DataSrc):
     """Synthetic data I created"""
-    FILENAME = '/home/pcoccoli/github/kestrel-jupyter/notebooks/synthetic_anomalies.parquet'
+    FILENAME = '/tmp/synthetic_anomalies.parquet'
     def __init__(self):
         super().__init__()
         self.df = pd.read_parquet(self.FILENAME)
@@ -520,7 +520,7 @@ if __name__ == '__main__':
     #model = ProphetDetector()
     #model = HstDetector(args.threshold)
 
-    # ds = AIOpsKPI('/home/pcoccoli/Data/timeseries/phase2_train.csv',
+    # ds = AIOpsKPI('/tmp/Data/timeseries/phase2_train.csv',
     #               #kpi_id='a07ac296-de40-3a7c-8df3-91f642cc14d0')
     #               kpi_id='0efb375b-b902-3661-ab23-9a0bb799f4e3')
     #               #)
@@ -530,11 +530,8 @@ if __name__ == '__main__':
         #KaggleWafer('feature_1'),
         #KaggleWafer('feature_2'),
         #KaggleWafer('feature_3'),
-        #AIOpsKPI('/home/pcoccoli/Data/timeseries/phase2_train.csv', kpi_id='a07ac296-de40-3a7c-8df3-91f642cc14d0'),
-        #AIOpsKPI('/home/pcoccoli/Data/timeseries/phase2_train.csv', kpi_id='0efb375b-b902-3661-ab23-9a0bb799f4e3'),
-        #AIOpsKPI('/home/pcoccoli/Data/timeseries/phase2_train.csv', kpi_id='05f10d3a-239c-3bef-9bdc-a2feeb0037aa'),
-        #AIOpsKPI('/home/pcoccoli/Data/timeseries/phase2_train.csv', kpi_id='c69a50cf-ee03-3bd7-831e-407d36c7ee91'),
-        #AIOpsKPI('/home/pcoccoli/Data/timeseries/phase2_train.csv', kpi_id='da10a69f-d836-3baa-ad40-3e548ecf1fbd'),
+        #AIOpsKPI('/tmp/timeseries/phase2_train.csv', kpi_id='a07ac296-de40-3a7c-8df3-91f642cc14d0'),
+
         Synthetic(),
     ]
 
